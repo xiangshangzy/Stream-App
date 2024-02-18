@@ -16,7 +16,6 @@ export default function RootLayout() {
     const { dark } = useThemeStore()
     return (
         <PaperProvider theme={dark ? darkTheme : lightTheme}>
-
             <Stack>
                 <Stack.Screen name='(tab)' options={{ headerShown: false }} />
             </Stack>

@@ -2,6 +2,7 @@ import { Tabs } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { BottomNavigation } from 'react-native-paper';
 import { CommonActions } from '@react-navigation/native';
+
 export default function TabLayout() {
   return (
     <Tabs screenOptions={{
