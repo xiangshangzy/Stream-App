@@ -17,7 +17,6 @@ const Input = () => {
 };
 
 export default function Page() {
-    const [switchOn, setSwitchOn] = useState(true);
     const themeStore = useThemeStore()
     const theme = useTheme()
     const handleSwitchOn = () => {
