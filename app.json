@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Stream",
-    "slug": "Stream",
+    "name": "Streaming",
+    "scheme": "streaming",
+    "slug": "Streaming",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +25,8 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro",
+      "output": "static"
     }
   }
 }
