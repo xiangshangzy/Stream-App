@@ -1,8 +1,7 @@
 import { View } from "react-native";
-import { Button, Switch, Text, TextInput, useTheme } from "react-native-paper";
+import { Switch, Text, TextInput, useTheme } from "react-native-paper";
 import * as React from 'react';
 import { useThemeStore } from "../../common/store";
-import { useState } from "react";
 
 const Input = () => {
     const [text, setText] = React.useState("");
@@ -24,7 +23,7 @@ export default function Page() {
     }
     return (
         <View style={{ alignItems: 'center', justifyContent: 'center', flex: 1, backgroundColor: theme.colors.background }}>
-            <Text>Home</Text>
+            <Text className='text-3xl text-red-700 mb-10'>Home</Text>
             <Switch value={themeStore.dark} onValueChange={handleSwitchOn} />
             <Input />
         </View>

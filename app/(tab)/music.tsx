@@ -3,7 +3,7 @@ import { Text } from "react-native-paper";
 
 export default function Page(){
     return(
-        <View>
+        <View className='text-2xl'>
             <Text>Music</Text>
         </View>
     )

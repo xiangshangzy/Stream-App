@@ -1,3 +1,4 @@
+import "../global.css"
 import {
     MD3DarkTheme,
     MD3LightTheme,
