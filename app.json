@@ -22,11 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.xiangshangzy.Streaming"
     },
     "web": {
       "bundler": "metro",
       "output": "static"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e2165a2b-e33a-4491-b983-1a7182826d44"
+      }
     }
   }
 }
